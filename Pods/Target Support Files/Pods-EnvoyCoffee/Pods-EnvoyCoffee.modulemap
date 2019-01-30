@@ -1,0 +1,6 @@
+framework module Pods_EnvoyCoffee {
+  umbrella header "Pods-EnvoyCoffee-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2115781794D4507FDB2DF4C6 /* Pods_EnvoyCoffeeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8660CDC27541AFE8118BC8D7 /* Pods_EnvoyCoffeeUITests.framework */; };
 		50979A5321FBD4D000937D6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50979A5221FBD4D000937D6A /* AppDelegate.swift */; };
-		50979A5521FBD4D000937D6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50979A5421FBD4D000937D6A /* ViewController.swift */; };
+		50979A5521FBD4D000937D6A /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50979A5421FBD4D000937D6A /* LocationViewController.swift */; };
 		50979A5821FBD4D000937D6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50979A5621FBD4D000937D6A /* Main.storyboard */; };
 		50979A5A21FBD4D500937D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50979A5921FBD4D500937D6A /* Assets.xcassets */; };
 		50979A5D21FBD4D500937D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50979A5B21FBD4D500937D6A /* LaunchScreen.storyboard */; };
 		50979A6821FBD4D500937D6A /* EnvoyCoffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50979A6721FBD4D500937D6A /* EnvoyCoffeeTests.swift */; };
 		50979A7321FBD4D600937D6A /* EnvoyCoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50979A7221FBD4D600937D6A /* EnvoyCoffeeUITests.swift */; };
+		50979A9021FBFB9A00937D6A /* VenuesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50979A8221FBFB9900937D6A /* VenuesCell.swift */; };
+		50979A9121FBFB9A00937D6A /* VenuesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50979A8321FBFB9900937D6A /* VenuesCell.xib */; };
+		50979A9221FBFB9A00937D6A /* VenuesSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50979A8421FBFB9900937D6A /* VenuesSectionController.swift */; };
+		50979A9321FBFB9A00937D6A /* VenuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50979A8521FBFB9900937D6A /* VenuesViewController.swift */; };
+		50979A9421FBFB9A00937D6A /* VenuesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50979A8721FBFB9900937D6A /* VenuesProtocol.swift */; };
+		50979A9521FBFB9A00937D6A /* VenuesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50979A8921FBFB9900937D6A /* VenuesPresenter.swift */; };
+		50979A9621FBFB9A00937D6A /* VenuesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50979A8B21FBFB9900937D6A /* VenuesInteractor.swift */; };
+		50979A9821FBFB9A00937D6A /* VenuesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50979A8F21FBFB9900937D6A /* VenuesRouter.swift */; };
+		50B04C7121FE937D00B3D7DE /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B04C7021FE937D00B3D7DE /* APIService.swift */; };
+		50B04C7321FE96D400B3D7DE /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B04C7221FE96D400B3D7DE /* SearchManager.swift */; };
+		50B04C7521FE9A2800B3D7DE /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B04C7421FE9A2800B3D7DE /* Venue.swift */; };
+		50B04C7721FEA64100B3D7DE /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B04C7621FEA64100B3D7DE /* LocationCell.swift */; };
+		50B04C7921FFE03100B3D7DE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B04C7821FFE03100B3D7DE /* LocationManager.swift */; };
+		87D53F077150C6908165680C /* Pods_EnvoyCoffeeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082F8D64303F415ED358AC9C /* Pods_EnvoyCoffeeTests.framework */; };
+		B01C20E5703B28439A159FDD /* Pods_EnvoyCoffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170438A94091CAD72F54F993 /* Pods_EnvoyCoffee.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		082F8D64303F415ED358AC9C /* Pods_EnvoyCoffeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnvoyCoffeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		170438A94091CAD72F54F993 /* Pods_EnvoyCoffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnvoyCoffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50979A4F21FBD4D000937D6A /* EnvoyCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnvoyCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50979A5221FBD4D000937D6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50979A5421FBD4D000937D6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50979A5421FBD4D000937D6A /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		50979A5721FBD4D000937D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50979A5921FBD4D500937D6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50979A5C21FBD4D500937D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +65,26 @@
 		50979A6E21FBD4D500937D6A /* EnvoyCoffeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnvoyCoffeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50979A7221FBD4D600937D6A /* EnvoyCoffeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvoyCoffeeUITests.swift; sourceTree = "<group>"; };
 		50979A7421FBD4D600937D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50979A8221FBFB9900937D6A /* VenuesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesCell.swift; sourceTree = "<group>"; };
+		50979A8321FBFB9900937D6A /* VenuesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VenuesCell.xib; sourceTree = "<group>"; };
+		50979A8421FBFB9900937D6A /* VenuesSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesSectionController.swift; sourceTree = "<group>"; };
+		50979A8521FBFB9900937D6A /* VenuesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesViewController.swift; sourceTree = "<group>"; };
+		50979A8721FBFB9900937D6A /* VenuesProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesProtocol.swift; sourceTree = "<group>"; };
+		50979A8921FBFB9900937D6A /* VenuesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesPresenter.swift; sourceTree = "<group>"; };
+		50979A8B21FBFB9900937D6A /* VenuesInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesInteractor.swift; sourceTree = "<group>"; };
+		50979A8F21FBFB9900937D6A /* VenuesRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesRouter.swift; sourceTree = "<group>"; };
+		50B04C7021FE937D00B3D7DE /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		50B04C7221FE96D400B3D7DE /* SearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
+		50B04C7421FE9A2800B3D7DE /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		50B04C7621FEA64100B3D7DE /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		50B04C7821FFE03100B3D7DE /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		609CA23CAF1A2144500F2E98 /* Pods-EnvoyCoffeeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvoyCoffeeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnvoyCoffeeUITests/Pods-EnvoyCoffeeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8660CDC27541AFE8118BC8D7 /* Pods_EnvoyCoffeeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnvoyCoffeeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A90817FBE393C17A9B57F4A /* Pods-EnvoyCoffeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvoyCoffeeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnvoyCoffeeTests/Pods-EnvoyCoffeeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C3C68070D836CF398FC878D /* Pods-EnvoyCoffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvoyCoffee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnvoyCoffee/Pods-EnvoyCoffee.debug.xcconfig"; sourceTree = "<group>"; };
+		8F7B8BA5A7FC8D7AE451E1E4 /* Pods-EnvoyCoffeeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvoyCoffeeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnvoyCoffeeUITests/Pods-EnvoyCoffeeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AB39C1239BDBF6E1BE862009 /* Pods-EnvoyCoffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvoyCoffee.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnvoyCoffee/Pods-EnvoyCoffee.release.xcconfig"; sourceTree = "<group>"; };
+		CE77094BCB443C29787A0F69 /* Pods-EnvoyCoffeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvoyCoffeeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnvoyCoffeeTests/Pods-EnvoyCoffeeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B01C20E5703B28439A159FDD /* Pods_EnvoyCoffee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D53F077150C6908165680C /* Pods_EnvoyCoffeeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2115781794D4507FDB2DF4C6 /* Pods_EnvoyCoffeeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +122,8 @@
 				50979A6621FBD4D500937D6A /* EnvoyCoffeeTests */,
 				50979A7121FBD4D600937D6A /* EnvoyCoffeeUITests */,
 				50979A5021FBD4D000937D6A /* Products */,
+				7EAA93ED89B9680AEFDDE634 /* Pods */,
+				61B2368F6924C676B1E35C6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +140,13 @@
 		50979A5121FBD4D000937D6A /* EnvoyCoffee */ = {
 			isa = PBXGroup;
 			children = (
+				50979A8021FBFB1B00937D6A /* list */,
 				50979A5221FBD4D000937D6A /* AppDelegate.swift */,
-				50979A5421FBD4D000937D6A /* ViewController.swift */,
+				50979A5421FBD4D000937D6A /* LocationViewController.swift */,
+				50B04C7621FEA64100B3D7DE /* LocationCell.swift */,
+				50B04C7021FE937D00B3D7DE /* APIService.swift */,
+				50B04C7221FE96D400B3D7DE /* SearchManager.swift */,
+				50B04C7821FFE03100B3D7DE /* LocationManager.swift */,
 				50979A5621FBD4D000937D6A /* Main.storyboard */,
 				50979A5921FBD4D500937D6A /* Assets.xcassets */,
 				50979A5B21FBD4D500937D6A /* LaunchScreen.storyboard */,
@@ -125,6 +173,93 @@
 			path = EnvoyCoffeeUITests;
 			sourceTree = "<group>";
 		};
+		50979A8021FBFB1B00937D6A /* list */ = {
+			isa = PBXGroup;
+			children = (
+				50979A8C21FBFB9900937D6A /* entity */,
+				50979A8A21FBFB9900937D6A /* interactor */,
+				50979A8821FBFB9900937D6A /* presenter */,
+				50979A8621FBFB9900937D6A /* protocol */,
+				50979A8E21FBFB9900937D6A /* router */,
+				50979A8121FBFB9800937D6A /* view */,
+			);
+			path = list;
+			sourceTree = "<group>";
+		};
+		50979A8121FBFB9800937D6A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				50979A8221FBFB9900937D6A /* VenuesCell.swift */,
+				50979A8321FBFB9900937D6A /* VenuesCell.xib */,
+				50979A8421FBFB9900937D6A /* VenuesSectionController.swift */,
+				50979A8521FBFB9900937D6A /* VenuesViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		50979A8621FBFB9900937D6A /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				50979A8721FBFB9900937D6A /* VenuesProtocol.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		50979A8821FBFB9900937D6A /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				50979A8921FBFB9900937D6A /* VenuesPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		50979A8A21FBFB9900937D6A /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				50979A8B21FBFB9900937D6A /* VenuesInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		50979A8C21FBFB9900937D6A /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				50B04C7421FE9A2800B3D7DE /* Venue.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		50979A8E21FBFB9900937D6A /* router */ = {
+			isa = PBXGroup;
+			children = (
+				50979A8F21FBFB9900937D6A /* VenuesRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		61B2368F6924C676B1E35C6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				170438A94091CAD72F54F993 /* Pods_EnvoyCoffee.framework */,
+				082F8D64303F415ED358AC9C /* Pods_EnvoyCoffeeTests.framework */,
+				8660CDC27541AFE8118BC8D7 /* Pods_EnvoyCoffeeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EAA93ED89B9680AEFDDE634 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C3C68070D836CF398FC878D /* Pods-EnvoyCoffee.debug.xcconfig */,
+				AB39C1239BDBF6E1BE862009 /* Pods-EnvoyCoffee.release.xcconfig */,
+				8A90817FBE393C17A9B57F4A /* Pods-EnvoyCoffeeTests.debug.xcconfig */,
+				CE77094BCB443C29787A0F69 /* Pods-EnvoyCoffeeTests.release.xcconfig */,
+				609CA23CAF1A2144500F2E98 /* Pods-EnvoyCoffeeUITests.debug.xcconfig */,
+				8F7B8BA5A7FC8D7AE451E1E4 /* Pods-EnvoyCoffeeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50979A7721FBD4D600937D6A /* Build configuration list for PBXNativeTarget "EnvoyCoffee" */;
 			buildPhases = (
+				88293A8D8D4363816502C39D /* [CP] Check Pods Manifest.lock */,
 				50979A4B21FBD4D000937D6A /* Sources */,
 				50979A4C21FBD4D000937D6A /* Frameworks */,
 				50979A4D21FBD4D000937D6A /* Resources */,
+				00943113F2AE135265892A79 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +286,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50979A7A21FBD4D600937D6A /* Build configuration list for PBXNativeTarget "EnvoyCoffeeTests" */;
 			buildPhases = (
+				6610DD0A00D78F3B998A56A4 /* [CP] Check Pods Manifest.lock */,
 				50979A5F21FBD4D500937D6A /* Sources */,
 				50979A6021FBD4D500937D6A /* Frameworks */,
 				50979A6121FBD4D500937D6A /* Resources */,
@@ -167,6 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50979A7D21FBD4D600937D6A /* Build configuration list for PBXNativeTarget "EnvoyCoffeeUITests" */;
 			buildPhases = (
+				11ACCA28CC9A664CCB41E6F8 /* [CP] Check Pods Manifest.lock */,
 				50979A6A21FBD4D500937D6A /* Sources */,
 				50979A6B21FBD4D500937D6A /* Frameworks */,
 				50979A6C21FBD4D500937D6A /* Resources */,
@@ -232,6 +371,7 @@
 				50979A5D21FBD4D500937D6A /* LaunchScreen.storyboard in Resources */,
 				50979A5A21FBD4D500937D6A /* Assets.xcassets in Resources */,
 				50979A5821FBD4D000937D6A /* Main.storyboard in Resources */,
+				50979A9121FBFB9A00937D6A /* VenuesCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +391,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00943113F2AE135265892A79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EnvoyCoffee/Pods-EnvoyCoffee-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkeletonView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnvoyCoffee/Pods-EnvoyCoffee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11ACCA28CC9A664CCB41E6F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnvoyCoffeeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6610DD0A00D78F3B998A56A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnvoyCoffeeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88293A8D8D4363816502C39D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnvoyCoffee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		50979A4B21FBD4D000937D6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50979A5521FBD4D000937D6A /* ViewController.swift in Sources */,
+				50979A9621FBFB9A00937D6A /* VenuesInteractor.swift in Sources */,
+				50979A9521FBFB9A00937D6A /* VenuesPresenter.swift in Sources */,
+				50979A5521FBD4D000937D6A /* LocationViewController.swift in Sources */,
+				50B04C7321FE96D400B3D7DE /* SearchManager.swift in Sources */,
+				50B04C7721FEA64100B3D7DE /* LocationCell.swift in Sources */,
+				50979A9221FBFB9A00937D6A /* VenuesSectionController.swift in Sources */,
+				50B04C7121FE937D00B3D7DE /* APIService.swift in Sources */,
+				50979A9021FBFB9A00937D6A /* VenuesCell.swift in Sources */,
+				50979A9421FBFB9A00937D6A /* VenuesProtocol.swift in Sources */,
 				50979A5321FBD4D000937D6A /* AppDelegate.swift in Sources */,
+				50B04C7921FFE03100B3D7DE /* LocationManager.swift in Sources */,
+				50979A9821FBFB9A00937D6A /* VenuesRouter.swift in Sources */,
+				50B04C7521FE9A2800B3D7DE /* Venue.swift in Sources */,
+				50979A9321FBFB9A00937D6A /* VenuesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +697,7 @@
 		};
 		50979A7821FBD4D600937D6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C3C68070D836CF398FC878D /* Pods-EnvoyCoffee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +716,7 @@
 		};
 		50979A7921FBD4D600937D6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB39C1239BDBF6E1BE862009 /* Pods-EnvoyCoffee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +735,7 @@
 		};
 		50979A7B21FBD4D600937D6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A90817FBE393C17A9B57F4A /* Pods-EnvoyCoffeeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +757,7 @@
 		};
 		50979A7C21FBD4D600937D6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE77094BCB443C29787A0F69 /* Pods-EnvoyCoffeeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +779,7 @@
 		};
 		50979A7E21FBD4D600937D6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609CA23CAF1A2144500F2E98 /* Pods-EnvoyCoffeeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +800,7 @@
 		};
 		50979A7F21FBD4D600937D6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F7B8BA5A7FC8D7AE451E1E4 /* Pods-EnvoyCoffeeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
